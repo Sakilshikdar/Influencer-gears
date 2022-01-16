@@ -53,6 +53,10 @@ color: white;
 
 /* section 1 end */
 
+hr{
+    width: 1000px;
+    margin-top: 100px;
+}
 /* section 2 start */
 .section-title{
   text-align: center;
@@ -118,3 +122,38 @@ color: white;
 margin-left: 220px;
 }
 /* footer end */
+@media only screen and (max-width: 740px) {
+.menu{
+  display: none;
+}
+.all-part{
+  justify-content: center;
+}
+.header{
+  display:grid;
+  grid-template-columns:repeat(1fr, 1fr); 
+  margin: 20%;
+  img-size: 10%;
+}
+.header-img{
+background-color: #E02C6D;
+}
+.collection-part{
+  margin-left: 50%;
+}
+.collections{
+  display:grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.future-ecommers{
+  display:grid;
+  grid-template-columns:repeat(1fr, 1fr); 
+  margin: 20%;
+}
+.see-button{
+display:none;
+}
+.section-title h2{
+  margin-left:300px ;
+}
+}
